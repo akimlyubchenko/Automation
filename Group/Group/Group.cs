@@ -59,15 +59,13 @@ namespace Group
         public double AverageScore()
         {
             double avScore = 0;
-            int count = 0;
 
             foreach (var student in students)
             {
                 avScore += student.AverageScore();
-                count++;
             }
 
-            return avScore / count;
+            return avScore / students.Count;
         }
 
         /// <summary>
