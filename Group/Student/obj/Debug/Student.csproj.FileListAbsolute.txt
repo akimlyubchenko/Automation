@@ -1,0 +1,6 @@
+c:\users\akim_\source\repos\Group\Student\bin\Debug\Student.dll
+c:\users\akim_\source\repos\Group\Student\bin\Debug\Student.pdb
+c:\users\akim_\source\repos\Group\Student\obj\Debug\Student.csprojAssemblyReference.cache
+c:\users\akim_\source\repos\Group\Student\obj\Debug\Student.csproj.CoreCompileInputs.cache
+c:\users\akim_\source\repos\Group\Student\obj\Debug\Student.dll
+c:\users\akim_\source\repos\Group\Student\obj\Debug\Student.pdb
