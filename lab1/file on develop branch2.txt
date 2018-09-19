@@ -1,1 +1,3 @@
 some changes(point 10)
+
+and commit(point 12)
