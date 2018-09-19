@@ -1,9 +1,5 @@
 some changes(point 10)
 
-<<<<<<< HEAD
 and commit(point 12)
 
 and one commit (point 12.2)
-=======
-and commit(point 12)
->>>>>>> a58e446... point 12.1
