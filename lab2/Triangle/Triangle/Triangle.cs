@@ -25,10 +25,11 @@ namespace Triangle
         {
             if (a > 0 && b > 0 && c > 0)
             {
-                return Helper(a, b, c);
+                 return Helper(a, b, c) && Helper(a, c, b) && Helper(b, c, a) ?
+                    true : false;
             }
 
-            throw new ArgumentException("Fill sides more than 0");
+            throw new ArgumentException("Fill value of sides more than 0");
         }
         private static bool Helper(double a, double b, double c)
             => (a + b > c) ? true : false;

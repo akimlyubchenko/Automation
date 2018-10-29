@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 
 namespace Triangle.Tests
@@ -24,6 +20,7 @@ namespace Triangle.Tests
         [TestCase(3, 5, 15, ExpectedResult = false)]
         [TestCase(1, 2, 3, ExpectedResult = false)]
         [TestCase(5.5, 3.6, 10.3, ExpectedResult = false)]
+        [TestCase(2, 7, 3, ExpectedResult = false)]
         public bool Triangle_InputNumbers_False(double a, double b, double c)
            => Triangle.IsTriangle(a, b, c);
 
