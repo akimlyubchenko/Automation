@@ -9,9 +9,9 @@ using OpenQA.Selenium.Chrome;
 
 namespace ConsoleApp1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // Оочень сложную авиакомпанию выбрал: стоят "i'm not a robot", названия классов и id генерируются при каждом 
             // обновлении страницы
